@@ -18,4 +18,16 @@ Possui um menu principal com quatro opções:
 
 * Cada bloco de 3x3 possuirá os valores de 1 a 9 sem repetições;
 
-* O jogador deverá preencher os espaços vazios com valores dentro do alcance de forma que os blocos de 3x3 não contenham números repetidos. 
+* O jogador deverá preencher os espaços vazios com valores dentro do alcance de forma que os blocos de 3x3 não contenham números repetidos.
+
+# Geração da matriz do jogo
+
+O algoritmo declara três *arrays* 9x9, inicializando a primeira com os valores pré-definidos pelo enunciado do trabalho e chega na matriz-jogo conforme as etapas a seguir:
+
+1. Gera a matriz-gabarito a partir da pré-definida, realizando de forma aleatória uma das quatro modificações a seguir:
+    1. Cópia exata da matriz;
+    2. Matriz transposta;
+    3. Matriz invertida por linha;
+    4. Matriz invertida por coluna.
+2. Preenche toda a matriz-jogo com o valor 0;
+3. Copia uma porcentagem de valores derivada da dificuldade da matriz-gabarito à matriz-jogo, escolhendo índices aleatórios e vazios.
