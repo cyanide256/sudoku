@@ -1,9 +1,9 @@
-# sudoku
-sudoku no console em c++
+# Sudoku
+Sudoku no console em c++
 
 # Descrição
 
-Jogo de sudoku com uma matriz 9x9 gerada através da seleção de uma dentre quatro manipulações feitas a uma matriz pré-definida no código e copia uma porcentagem dessa para a matriz que será vizualizada pelo jogador.
+Jogo de sudoku com uma matriz 9x9 gerada através da seleção de uma dentre quatro manipulações feitas a uma matriz pré-definida no código e da cópia de uma porcentagem dessa para a matriz que será vizualizada pelo jogador.
 
 Possui um menu principal com quatro opções:
 
